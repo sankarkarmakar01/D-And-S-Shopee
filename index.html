@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> D & S Shopee </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../final_logo.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="nav-div">
+        <nav
+            class="h-[60px] w-full bg-[#00a8eb] flex items-center justify-between font-semibold text-[#fffafa] text-sm p-3">
+            <div class="logo">
+                <img id="main-logo" class="h-20 cursor-pointer" src="./final_logo.png">
+            </div>
+            <div class="flex items-center gap-9">
+                <div class="cursor-pointer">
+                    <p>Deliver to registered</p>
+                    <p>user location &nbsp;<i class="fa-solid fa-location-dot"></i></p>
+                </div>
+                <div class="cursor-pointer">
+                    <p>Deals or discount</p>
+                    <p>product list</p>
+                </div>
+            </div>
+            <div class="h-auto w-[550px] flex justify-evenly border bg-white p-1 rounded-3xl">
+                <select
+                    class="bg-transparent border-none outline-none h-[30px] w-[50px] align-baseline rounded-sm text-black p-1 focus:outline-none focus:border-none">
+                    <option selected>All</option>
+                    <option>Electronics</option>
+                    <option>Grocery</option>
+                    <option>Furnitures</option>
+                    <option>Mobile Accessories</option>
+                    <option>Toys</option>
+                    <option>Perfumes</option>
+                    <option>Shoes</option>
+                    <option>Bags</option>
+                    <option>Dress</option>
+                    <option>Watches</option>
+                </select>
+                <input placeholder="Search-products"
+                    class="text-black bg-transparent h-[30px] w-full text-[1rem] ml-3 placeholder:text-gray-500 placeholder:text-md focus:border-none focus:outline-none">
+                <div
+                    class="search-icon h-[30px] w-[45px] flex justify-center items-center text-[1rem] bg-transparent text-[#387a7a] cursor-pointer">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div>
+                <p class="cursor-pointer">Best Sellers</p>
+            </div>
+            <div class="flex items-center gap-9">
+                <div class="cart">
+                    <p class="cursor-pointer"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Cart</p>
+                </div>
+                <div class="Accounts">
+                    <p class="cursor-pointer"><i class="fa-solid fa-user"></i>&nbsp;User</p>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- 2nd nav -->
+    <div class="another-nav h-[50px] w-full bg-[#1ec5b4] flex justify-evenly items-center ">
+        <div class="menu text-[#fff1f1df] pl-[20px]">
+            <i class="fa-solid fa-bars cursor-pointer"></i>
+        </div>
+        <div class="options">
+            <ul class="service flex justify-evenly font-light ">
+                <li class="pl-[56px] text-[#fff1f1df] font-extrabold cursor-pointer">Customer Service</li>
+                <li class="pl-[56px] text-[#fff1f1df] font-extrabold cursor-pointer">Gift products</li>
+                <li class="pl-[56px] text-[#fff1f1df] font-extrabold cursor-pointer">Collective coins</li>
+                <li class="pl-[56px] text-[#fff1f1df] font-extrabold cursor-pointer">Sell</li>
+                <li class="pl-[56px] text-[#fff1f1df] font-extrabold cursor-pointer">returns & orders</li>
+                <li class="pl-[56px] text-[#fff1f1df] font-extrabold cursor-pointer">Add to cart</li>
+                <li class="pl-[56px] text-[#fff1f1df] font-extrabold cursor-pointer">Likes</li>
+                <li class="pl-[56px] text-[#fff1f1df] font-extrabold cursor-pointer">Shop deals in electronics</li>
+            </ul>
+        </div>
+    </div>
+    <!-- slide bar -->
+    <div id="landing" class="relative h-[500px] bg-cover bg-no-repeat bg-center flex  items-end w-full ">
+        <h1 class="text-emerald-800 font-extrabold text-8xl absolute top-0 left-5 w-[600px]">Welcome to D & S Shopee
+        </h1>
+        <div
+            class="hero-message h-[40px] flex items-center justify-center text-[0.90rem] mb-[25px] w-[80%] font-bold text-[#c1fc00] ">
+            <p> You are on D&S shopee . You can also shop on D&S shopee India for millions of products with fast local
+                delivery.<a href="#" class="text-blue-700 underline"> Click here to go to D & S shopee.in</a> </p>
+        </div>
+    </div>
+    <!-- Product -->
+    <div class="main ">
+        <h2 class="text-[35px] font-semibold mt-[5vh] mb-[1vh] ml-[4vw]">Electronics</h2>
+        <section class="product-box w-full h-auto p-[30px] flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex flex-shrink-0 justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/41JnNfpIRXL._SY445_SX342_QL70_FMwebp_.jpg"
+                    alt="Kasa Smart Plug" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Kasa Smart Plug</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">33%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,690</span> <strike>₹2,536</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px] ">Smart Outlet Control from
+                    anywhere: Turn electronics on
+                    and off your
+                    smart home devices from anywhere with your smartphone using the Kasa app, whether
+                    you are at home,
+                    in the office or on vacation</p>
+                <button class="read-more ">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71R6ka8Os4L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="LISEN Retractable Car Charger" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">LISEN Retractable Car Charger</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">15%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,436</span> <strike>₹1,690</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Adjustable 180-Degree Charging
+                    Plug: The retractable plug
+                    can be adjusted
+                    180 degrees, allowing secure and stable charging even on rough roads—ideal for truck
+                    accessories for
+                    women or suv accessories for women.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61kRNDZh8UL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Mini Projector, VISSPL Full HD" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Mini Projector, VISSPL Full HD</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">38%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹4,227</span> <strike>₹6,764</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">With high-efficiency cooling
+                    technology, it reduces fan
+                    noise by 50%
+                    compared to other projectors, extending lamp life to over 55000 hours. If you have
+                    any problems
+                    while using, please let us know at once.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71eeQo-zlCL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Charging Station for Multiple Devices" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Charging Station for Multiple Devices</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">20%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,111</span> <strike>₹3,889</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Cinlinso USB Charging Station with
+                    16 Port Fast Charging
+                    ports. The total
+                    output power is 150W Charge up to 5V/2.4 amps per port or 35 Amps overall.This USB
+                    charger
+                    multi-station can charge multiple USB devices at the same time, freeing up your
+                    power outlet</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81djh1gfUwL._AC_SY550_.jpg"
+                    alt="Bluetooth Speaker with HD Sound" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Bluetooth Speaker with HD Sound</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">26%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,690</span> <strike>₹2,282</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Experience unparalleled sound
+                    quality with this wireless
+                    Bluetooth
+                    speaker's 2 drivers and advanced technology that delivers powerful, well-balanced
+                    sound with minimal
+                    distortion.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/516rsmCSJ1L._AC_SX425_.jpg" alt="JBL Tune Flex"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">JBL Tune Flex</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">50%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹4,224</span> <strike>₹8,452</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Up to 32 hours of battery life:
+                    Never miss a beat with 32
+                    (8 plus24)
+                    hours of battery life or 6 hours, plus 18 hours in the case when noise cancelling is
+                    engaged. Need a
+                    boost Speed Charge for just 10 minutes to get 2 hours of playtime.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71ifPsdG1cL._AC_SX425_.jpg"
+                    alt="SanDisk 2TB Extreme Portable SSD" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">SanDisk 2TB Extreme Portable SSD</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">35%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹10,973</span> <strike>₹16,913</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Up to 3-meter drop protection and
+                    IP65 water and dust
+                    resistance mean
+                    this tough drive can take a beating(3) (Previously rated for 2-meter drop protection
+                    and IP55
+                    rating. Now qualified for the higher, stated specs.)</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61BFHq3C6EL._AC_SX425_.jpg"
+                    alt="Bluetooth Speaker with Lights" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Bluetooth Speaker with Lights</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">10%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,128</span> <strike>₹3,466</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">UPowerful Bluetooth 5.0 Signal:
+                    The Bluetooth speaker is
+                    built with the
+                    latest Bluetooth 5.0 chip, which provides longer wireless range and efficient
+                    connection for all
+                    Bluetooth-enabled devices.</p>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+
+        <h2 class="text-[35px] font-semibold mt-[5vh] mb-[1vh] ml-[4vw]">Grocery</h2>
+        <section class="product-box w-full h-auto p-[30px] flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81+-gpLSTlL._SX569_PIbundle-12,TopRight,0,0_AA569SH20_.jpg"
+                    alt="Jocko Mölk 30g" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Jocko Mölk 30g</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">30%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,663</span> <strike>₹3,804</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">JOCKO MÖLK ready to drink protein
+                    shakes designed and
+                    engineered with a
+                    protein blend of milk protein concentrate and calcium caseinate. This protein blend
+                    helps fuel
+                    muscle growth and recovery all day long.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81sjSoBGxHL._AC_SX679_.jpg"
+                    alt="Nespresso Capsules Original Line" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Nespresso Capsules Original Line</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">20%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,706</span> <strike>₹3,382</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">A powerful and contrasting
+                    espresso blend for the
+                    Nespresso Original
+                    system.Nespresso;Original offers;an;unforgettable taste through iconic;espressos and
+                    exceptional
+                    coffee;discoveries.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81raS-58slL._SX569_.jpg"
+                    alt="McCormick Premium Taco Seasoning Mix" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">McCormick Premium Taco Seasoning Mix</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">20%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹526</span> <strike>₹658</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Signature taco seasoning blend of
+                    onion, garlic, chili
+                    pepper and
+                    oregano. Delicious, easy way to make family-favorite tacos in 15 minutes. McCormick
+                    Premium Taco
+                    Seasoning Mix has no artificial flavors or MSG added.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/915WFjQW67L._SX569_PIbundle-12,TopRight,0,0_AA569SH20_.jpg"
+                    alt="McCormick Original Taco Seasoning Mix" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">McCormick Original Taco Seasoning Mix</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">20%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹526</span> <strike>₹657</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Made with McCormick spices. No
+                    artificial flavors or MSG
+                    added for dinner
+                    you feel good about serving. Makes family-favorite tacos that are ready in 15
+                    minutes.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71iu6guEebL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="10 Pack Swing Top Glass Bottles" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">10 Pack Swing Top Glass Bottles</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">24%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,797</span> <strike>₹2,367</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Made with BPA-Free and premium
+                    glass for optimum
+                    resistance to impact and
+                    temperature changes. Perfect for storing oil, vinegar, wine, beer, syrups,
+                    beverages, fermentation,
+                    vanilla extract and more. </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71apPmC5BpL._SX679_PIbundle-12,TopRight,0,0_SX679SY553SH20_.jpg"
+                    alt="7 flavor variety pack" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">7 flavor variety pack</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">20%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,434</span> <strike>₹3,043</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">100mg Organic Caffeine from
+                    organic green tea, the
+                    highest quality
+                    caffeine available as a raw material, to bring you a refreshingly tasty caffeinated
+                    sparkling water.
+                </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/418ybYGfQbL._SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Big Train Vanilla Chai Tea" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Big Train Vanilla Chai Tea</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">23%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,766</span> <strike>₹2,307</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Big Train Vanilla Chai: Our
+                    Vanilla Chai Tea Mix is made
+                    with a blend of
+                    milk, honey, black tea and spices for a vanilla chai tea latte that you can mix in
+                    an instant. Drink
+                    hot and steamy or pour over ice for the best chai latte.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81xX94GekTL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Irish Sea Moss Gummies" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Irish Sea Moss Gummies</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">26%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,434</span> <strike>₹1,940</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Let the blend of Bladderwrack and
+                    Irish Sea Moss for
+                    women and men in our
+                    thyroid gummies cater to your health. Unlike the sea moss gel, our Irish sea moss
+                    gummies for adults
+                    are known as thyroid supplements with an easy-to-consume experience.</p>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+
+        <h2 class="text-[35px] font-semibold mt-[5vh] mb-[1vh] ml-[4vw]">Furniture</h2>
+        <section class="product-box w-full h-auto p-[30px] flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71yEzRn3obL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Steelcase Series 2 Office Chair" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Steelcase Series 2 Office Chair</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">25%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹50,048</span> <strike>₹66,730</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">High-Performing Office Chair: The
+                    Steelcase Series 2
+                    chair is a
+                    high-performing task chair that you can personalize with extensive style choices</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81pt+9hPvRL._AC_SY300_SX300_.jpg"
+                    alt="SUPERJARE Nightstand Table" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">SUPERJARE Nightstand Table</h3>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,894</span></p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">No complicated steps, with
+                    instruction, numbered
+                    components and tools,
+                    this tall end table will be finished quickly</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81ljAyNYVBL._AC_SX679_.jpg" alt="Shoe Cabinet with 4 Flip"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Shoe Cabinet with 4 Flip</h3>
+
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹14,056</span></p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">This modern freestanding shoe
+                    cabinet features
+                    space-saving flip drawers
+                    that are easy to open and close. </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71jNXilwdaL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Lerliuo Rattan Nightstand" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Lerliuo Rattan Nightstand</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">56%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,386</span> <strike>₹7,620</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]"> The handmade solid wood legs and
+                    drawer handle retain
+                    the original grain
+                    of the wood. Being a bedside table is not the only role it excels in.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61E1dVaTeHL._AC_SX679_.jpg"
+                    alt="QEEIG Narrow C Shaped Side" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">QEEIG Narrow C Shaped Side</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">39%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,370</span> <strike>₹5,488</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">C-shape design will help
+                    completely slide under couch.
+                    You won't be
+                    bending down to use laptop when sitting on the sofa, convenient working or studying
+                </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81mIlSNytFL._AC_SX679_.jpg"
+                    alt="Bezseller Floral Accent Chair" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Bezseller Floral Accent Chair</h3>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹13,548</span></p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Crafted from high-quality
+                    performance terry fabric, our
+                    indoor single
+                    sofa chair offers a soft texture and a comfortable touch</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/717028gLPwL.__AC_SY300_SX300_QL70_FMwebp_.jpg"
+                    alt="BAYKA Floating Shelves for Wall" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">BAYKA Floating Shelves for Wall</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">24%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,217</span> <strike>₹4,233</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">These shelves can be easily placed
+                    in any room, from your
+                    cozy bedroom to
+                    your functional kitchen or home office,christmas decorations</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61kgJK8F9iL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Furologee 4-Tier Ladder Shelf" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Furologee 4-Tier Ladder Shelf</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">11%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹4,233</span> <strike>₹4,741</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]"> Industrial ladder book shelf
+                    provides ample space for
+                    storing any items
+                    you want to collect and display.</p>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+
+        <h2 class="text-[35px] font-semibold mt-[5vh] mb-[1vh] ml-[4vw]">Mobile</h2>
+        <section class="product-box w-full h-auto p-[30px] flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81vxWpPpgNL._SX679_.jpg" alt="Samsung Galaxy S24 Ultra"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Samsung Galaxy S24 Ultra</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">27%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span class="text-[18px] font-bold">
+                        <strike>₹1,34,999</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Meet Galaxy S24 Ultra, the
+                    ultimate form of Galaxy Ultra
+                    with a new
+                    titanium
+                    exterior and a 17.25cm (6.8") flat display. It's an absolute marvel of design</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/619oqSJVY5L._AC_UY218_.jpg" alt="Apple iPhone 16 Pro Max"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Apple iPhone 16 Pro Max</h3>
+                    <div class="discount-shape">
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,64,900 </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">TAKE TOTAL CAMERA CONTROL — Camera
+                    Control gives you an
+                    easier way to
+                    quickly
+                    access camera tools, like zoom or depth of field, so you can take the perfect shot
+                    in record time
+                </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71MsYJjQhBL._AC_UY218_.jpg" alt="Xiaomi 14"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Xiaomi 14</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">38%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹49,999</span> <strike>₹79,999</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Xiaomi 14 Supports upto 90W of
+                    Wired fast charging amd
+                    50W of Fast
+                    wireless
+                    charging. 120W Hypercharger provided in the box</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY218_.jpg" alt="OnePlus 12"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">OnePlus 12</h3>
+                    <div class="discount-shape">
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹64,998</span></p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Elite, Long-lasting Performance -
+                    Qualcomm Snapdragon 8
+                    Gen 3 Mobile
+                    Platform
+                    - Software-assisted platform for Optimization - Keep apps active for up to 72 hours
+                    without
+                    reloading -
+                    Up to 3 hours of heavy gaming</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71Mc1FdLrWL._AC_UY218_.jpg" alt="Vivo X90 Pro"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Vivo X90 Pro</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">46%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹49,999</span> <strike>₹91,999</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">This Renewed product is tested to
+                    work and look like new
+                    with minimal to
+                    no
+                    signs of wear & tear; the product comes with relevant accessories and is backed by a
+                    minimum six
+                    month
+                    seller warranty; box may be generic</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71c2wuq3r9L._AC_UY218_.jpg"
+                    alt="Samsung Galaxy Z Flip6 5G" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Samsung Galaxy Z Flip6 5G</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">18%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹89,999</span> <strike>₹1,09,999</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Galaxy AI is Here - Your
+                    self-expression tool, Galaxy Z
+                    Flip6, is more
+                    compact and eye-catching, with Galaxy AI and a pro-level 50MP camera that's
+                    photoshoot-ready</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71pKVhll1IL._AC_UY218_.jpg" alt="Oneplus Open"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Oneplus Open</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">10%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹89,999</span> <strike>₹99,999</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">This Renewed product is tested to
+                    work and look like new
+                    with minimal to
+                    no
+                    signs of wear & tear; the product comes with relevant accessories and is backed by a
+                    minimum six
+                    month
+                    seller warranty; box may be generic</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/613L2Ppn46L._AC_UY218_.jpg" alt="TECNO CAMON 30 Premier"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">TECNO CAMON 30 Premier</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">17%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹39,999</span> <strike>₹47,999</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Ultra 5G Performance with MediaTek
+                    Dimensity 8200 SoC
+                    with 4nm Processor
+                    | Clock Speed Upto 3.1 GHz | Antutu Score up to 910K | HyperEngine 6.0 Game Engine
+                </p>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+
+        <h2 class="text-[35px] font-semibold mt-[5vh] mb-[1vh] ml-[4vw]">Toys</h2>
+        <section class="product-box w-full h-auto p-[30px] flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81Mqz3Wk3DL._AC_SX569_.jpg"
+                    alt="JOYIN Arcade Basketball Game Set" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">JOYIN Arcade Basketball Game Set</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">8%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,894</span> <strike>₹4,233</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Besides the parts for the
+                    basketball stand. There are
+                    also 4 inflatable
+                    balls and 1 air pump included in the set. Material: plastic.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81opsw0RhEL._AC_SX569_.jpg"
+                    alt="Learning Resources STEM Explorers" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Learning Resources STEM Explorers</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">46%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹917</span> <strike>₹1,692</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Designed for children ages 5 and
+                    up, the STEM Explorer
+                    Pixel Art
+                    Challenge is an interactive toy that challenges young minds to solve math problems
+                    and code their
+                    way through fun challenges.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61NihqGmnBL._AC_SX569_.jpg"
+                    alt="VTech Bluey Ring Ring Phone" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">VTech Bluey Ring Ring Phone</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">39%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹769</span> <strike>₹1,269</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Intended for ages 3-6 years;
+                    requires 2 AAA batteries;
+                    batteries included
+                    for demo purposes only; new batteries recommended for regular use</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71GsF-6i33L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Juboury Kitchen Pretend" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Juboury Kitchen Pretend</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">27%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,861</span> <strike>₹2,539</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Total 23 pieces include: a
+                    colander, Stainless Steel play
+                    pots and pans
+                    with Lid and Handles, 4 Stainless Steel and a Wooden Utensils, Apron & Chef Hat, Pot
+                    Holder and
+                    cutting vegetables toys.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81Aofvl9VoL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Educational Insights GeoSafari" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Educational Insights GeoSafari</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">35%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹820</span> <strike>₹1,269</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">KIDS BINOCULARS MADE FOR KIDS:
+                    Kidnoculars are kid
+                    binoculars with
+                    easy-placement goggles, 2x magnification, and breakaway neck strap</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71H0KY+KV+L._AC_SY300_SX300_.jpg"
+                    alt="Toyk Boy Toys - LED" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Toyk Boy Toys - LED</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">41%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,100</span> <strike>₹1,862</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">This ball toy is with colored LED
+                    lights that flashes
+                    colorful lights in
+                    the dark,children can play games at night and bring more fun because of the variety
+                    of colors.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71XCT7QNUNL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="NQD Remote Control Car" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">NQD Remote Control Car</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">26%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,878</span> <strike>₹3,894</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">We prioritize innovation and
+                    superior quality, ensuring
+                    that all our
+                    products meet international safety standards such as CE, ROHS, RED, FCC, ASTEM-963,
+                    and CPSIA.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71oiDYUyrML.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Hamourd Electronic Pets Robot" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Hamourd Electronic Pets Robot</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">31%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,116</span> <strike>₹3,047</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">The funny big eyes can light up
+                    once you turn on the
+                    robot, especially at
+                    night it looks cuter. This robot can sing different songs with a music button.</p>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+
+        <h2 class="text-[35px] font-semibold mt-[5vh] mb-[1vh] ml-[4vw]">Purfume</h2>
+        <section class="product-box w-full h-auto p-[30px] flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/41YNfQAjjLL._SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Swiss Arabian Layali Rouge" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Swiss Arabian Layali Rouge</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">37%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,274</span> <strike>₹2,032</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">This Arabian perfume oil opens
+                    with notes of Papaya and
+                    uplifting Lemon.
+                    The heart of the Arabian perfume for women brings out the deep resonance of Peach
+                    and Rose. </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61ICNVUDIQL._SY450_.jpg" alt="Marc Jacobs Perfect Women"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Marc Jacobs Perfect Women</h3>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹6,681</span></p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Aunched by the design house of
+                    Marc Jacobs in the year of
+                    2020. This
+                    amber floral fragrance has a blend of rhubarb, almond, narcissus, cashmeran, and
+                    cedar notes.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61tfjDFfFzL._SX425_.jpg" alt="Swiss Arabian Private Oud"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Swiss Arabian Private Oud</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">7%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,612</span> <strike>₹2,794</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Opens with finest notes of Oud and
+                    uplifting Plum. The
+                    beating heart of
+                    the fragrance brings out the deep resonance of Jasmine and Vetiver.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71PaHJwrf3L._AC_SX569_.jpg"
+                    alt="Bees & Roses Perfume Bottle" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Bees & Roses Perfume Bottle</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">50%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹751</span> <strike>₹1,503</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Giftable... perfect for any
+                    occasion including holidays
+                    and birthdays.
+                    Eye-catching... crystals accentuate the 3D bee & raised antique floral design.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61erV0u0jRL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Pink Glow Sparkle Glitter" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Pink Glow Sparkle Glitter</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">50%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹591</span> <strike>₹1,184</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Not glow on itself, but glow
+                    brightly under blacklight or
+                    UV light. The
+                    UV black light reactive attract people's eye in the crowed.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61S1Ac2bA1L._AC_SX569_.jpg" alt="Vintage Perfume"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Vintage Perfume</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">50%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹352</span> <strike>₹705</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Many Uses: Essential oils,
+                    aromatherapy, body mists,
+                    first aid kits, home
+                    remedies, homemade DIY sprays, natural perfumes, air fresheners, perfume sample
+                    bottle, and more.
+                </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61wnpq10P0L._AC_SX569_PIbundle-4,TopRight,0,0_SH20_.jpg"
+                    alt="Portable Mini Refillable Perfume" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Portable Mini Refillable Perfume</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">14%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹507</span> <strike>₹591</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">This Perfume Atomizer Bottle is
+                    handy travel size.Easy to
+                    use and easy to
+                    fill/refill, no leakage, Just press the bottom against your favorite perfume gauge
+                    and keep clicking
+                    until it is refilled.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71IjjeA3nqL._SX425_.jpg"
+                    alt="5ML Travel Perfume Bottle Refillable" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">5ML Travel Perfume Bottle Refillable</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">10%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,269</span> <strike>₹1,395</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Made of first layer leather and
+                    18K plating material,
+                    durable, delicate
+                    feel, high-grade luxury, elegant appearance design style.</p>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+
+        <h2 class="text-[35px] font-semibold mt-[5vh] mb-[1vh] ml-[4vw]">Shoes</h2>
+        <section class="product-box w-full h-auto p-[30px] flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81kgTEBxoNL._AC_SY500_.jpg" alt="LARNMERN Mens"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">LARNMERN Mens</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">16%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹4,225</span> <strike>₹4,479</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Light comfort and hiker-like
+                    durability, is the perfect
+                    for slip
+                    resistant working.Our DURA-ANTISLIP outsole offers superior slip resistance by
+                    channeling away
+                    liquids like oil, grease, and water.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81vhAqO59zL._AC_SX500_.jpg" alt="Modern Tennis Sneaker"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Modern Tennis Sneaker</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">20%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹8,467</span> <strike>₹10,839</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">The modern update to our classic
+                    lifestyle sneaker.
+                    Effortlessly
+                    versatile leather, suede or nubuck cupsole sneaker for every occasion.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71Bh5zSwc+L._AC_SY625_.jpg" alt="Kricely Men's"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Kricely Men's</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">5%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹4,233</span> <strike>₹4,444</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Fashion Knitted Mesh Upper:Mesh
+                    upper offers a snug,
+                    sock-like fit,
+                    comfortable, breathable and lightweight the upper and let your foot always keeps dry
+                    and cool.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81AWqt7JCXL._AC_SY500_.jpg" alt="wanhee Men's Sneakers"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">wanhee Men's Sneakers</h3>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,378</span></p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Athletic walking sneakers design
+                    of honeycomb hole of
+                    lining insole has
+                    the effect of air permeability and sweat absorption, which can create a cleaner and
+                    cooler shoe
+                    environment.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71pM1dfbK4L._AC_SY535_.jpg" alt="Men's Fashion Sneakers"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Men's Fashion Sneakers</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">3%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹4,148</span> <strike>₹4,272</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Men's trail running Shoes mesh
+                    fabric upper designed
+                    which allows air
+                    movement to keep your feet from overheating.Our running shoes let your foot always
+                    keeps dry and
+                    cool.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71k-Z5kUTqL._AC_SY575_.jpg" alt="Breathable Walking Shoes"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Breathable Walking Shoes</h3>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,548</span></p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Mens Athletic Sport Shoes has
+                    multiple colors,classic
+                    black and fashion
+                    camouflage,unique gray and blue,it shows different vitality.Reflective design to
+                    increase
+                    recognition.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71kAVfhQeiL._AC_SX500_.jpg" alt="Joomra Whitin Men's"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Joomra Whitin Men's</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">23%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,894</span> <strike>₹5,080</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">The special patch on the upper
+                    prevents the laces from
+                    tearing. Durable
+                    density foam midsole provides lightweight response and lasting durability.Rubber
+                    outsole help
+                    provide reliable traction.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/816evN5Re+L._AC_SY500_.jpg" alt="Plantar Fasciitis"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Plantar Fasciitis</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">13%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹5,927</span> <strike>₹6,773</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Mens shoes are made of EVA midsole
+                    material to absorb
+                    impact, and the
+                    walking shoes have a good shock absorption effect to provide you with more power to
+                    move forward.
+                </p>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+
+        <h2 class="text-[35px] font-semibold mt-[5vh] mb-[1vh] ml-[4vw]">Bags</h2>
+        <section class="product-box w-full h-auto p-[30px] flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/91GzEYYv89L._AC_SY500_.jpg"
+                    alt="Women's Snake Print Crossbody Shoulder" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Women's Snake Print Crossbody Shoulder</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">5%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,454</span> <strike>₹2,576</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]"> Fashion Ladies crossbody bag is
+                    made of high-quality PU
+                    leather with 3D
+                    texture snake-printed, soft and glossy, exquisite mermaid metal buckle and hardware
+                    chain strap.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71QPWSYDxSL._AC_SY500_.jpg"
+                    alt="Kipling Sabian Printed Crossbody" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Kipling Sabian Printed Crossbody</h3>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,962</span></p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]"> Kipling Women's Sabian Mini
+                    Crossbody Bag, Lightweight
+                    Everyday Purse,
+                    Shoulder Bag.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61aoSHe5FZL._AC_SX522_.jpg"
+                    alt="Universal Crossbody Wallet Phone Bag" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Universal Crossbody Wallet Phone Bag</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">50%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹422</span> <strike>₹845</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">2 large one,you can put two Phones
+                    ,Passport ,1
+                    middle,can put ID Card
+                    ,Credit card , 1 small,can put the Keys, Lipstick.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71X0s2WwsFL._AC_SX425_.jpg" alt="BAGSMART Tote Bag"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">BAGSMART Tote Bag</h3>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,793</span></p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Spacious compartment can hold your
+                    clothes, cosmetics,
+                    documents and
+                    other items you need. Side easy access pockets for your water bottle, umbrella, etc.
+                </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71Q95Pghu3L._AC_SX522_.jpg" alt="KPX Large Beach Bags"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">KPX Large Beach Bags</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">30%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹591</span> <strike>₹845</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">The striped beach bag is made of
+                    canvas fabric with a
+                    tear resistant
+                    structure and sturdy lining, protects beach bag tote inside from getting wet or
+                    damaged. can hold 22
+                    pounds (10 kg) easily.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/71yetrXMrtL._AC_SY500_.jpg"
+                    alt="Angel Kiss Crossbody Bags" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Angel Kiss Crossbody Bags</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">25%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹2,539</span> <strike>₹3,386</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">This crossbody bag is made from
+                    high-quality vegan
+                    leather which is
+                    washed with a special technique to make it ultra-soft, durable, and easy to clean.
+                </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/91joXvqX14L._AC_SX425_.jpg" alt="Quilted Cosmetic Bag"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Quilted Cosmetic Bag</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">30%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹414</span> <strike>₹591</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">With dimensions of 9.4*3.8*6.7
+                    inches, our cosmetic bag
+                    offers ample
+                    space to accommodate all your skincare and makeup essentials, ensuring you have
+                    everything you need
+                    at your fingertips.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61ZsYh+A8ML._AC_SX522_.jpg" alt="Sling Slim Bag"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Sling Slim Bag</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">50%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹803</span> <strike>₹1,608</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Personal pocket bag size:16.5 x
+                    8.6 x 1.4 inch (L*W*H),
+                    Weight: 0.33lb.
+                    It's thin, light flexible & moves with body. </p>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+
+        <h2 class="text-[35px] font-semibold mt-[5vh] mb-[1vh] ml-[4vw]">Watches</h2>
+        <section class="product-box w-full h-auto p-[30px] flex flex-wrap justify-center items-center gap-[30px]">
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61Nq3Oq2CKL._AC_SY741_.jpg" alt="Invicta Men's Pro"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Invicta Men's Pro</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">27%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹3,300</span> <strike>₹4,502</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Stainless steel case 40mm diameter
+                    x 12.5mm thick; Blue
+                    dial; Magnified
+                    date window; Luminous hands and hour markers.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/711f6KLsMaL._AC_SX569_.jpg" alt="Samsung Galaxy Watch 6"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Samsung Galaxy Watch 6</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">48%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹14,394</span> <strike>₹27,942</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Zone in on the results you want
+                    with personalized heart
+                    rate zones**;
+                    Watch scans your health data to provide HR zones tailored just for you.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/611typKnTvL._AC_SY741_.jpg" alt="Casio A158WA"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Casio A158WA</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">13%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,692</span> <strike>₹1,943</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Water resistant. Withstands
+                    splashes or brief immersion
+                    in water, but not
+                    suitable for swimming.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/817QHxxq34L._AC_SX569_.jpg"
+                    alt="Samsung Galaxy Watch Ultra 47mm" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Samsung Galaxy Watch Ultra 47mm</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">26%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹40,531</span> <strike>₹55,039</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Climb the highest peak; Bike the
+                    long way home; The
+                    durable titanium
+                    design is our toughest yet, able to stand up to the rigors of your workout.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/81K7PRwX9oL._AC_SY741_.jpg" alt="Anne Klein Women's"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Anne Klein Women's</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">31%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,893</span> <strike>₹2,727</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Two-tone adjustable link bracelet;
+                    fold over clasp with
+                    double
+                    push-button safety, Japanese-quartz Movement.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/711Fz-mfHfL._AC_SX679_.jpg" alt="Fossil Townsman Men's"
+                    class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Fossil Townsman Men's</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">30%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹14,225</span> <strike>₹20,322</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Included with our up-to-the-minute
+                    innovation? A refined
+                    steel case with
+                    a clear crystal lens, a blue satin dial and handsome brown leather straps.</p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/610Jl4dUB7L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                    alt="Garmin vívoactive 5" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Garmin vívoactive 5</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">33%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹16,934</span> <strike>₹25,402</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">Designed with a bright, colorful
+                    AMOLED display, get a
+                    more complete
+                    picture of your health, thanks to battery life of up to 11 days in smartwatch mode.
+                </p>
+                <button class="read-more">Read more</button>
+            </div>
+            <div
+                class="box w-[20vw] h-[62vh] border border-black flex justify-center items-center flex-col text-center p-[10px] rounded-[12px] shadow-2xl shadow-black">
+                <img src="https://m.media-amazon.com/images/I/61I22cL7v+L._AC_SX679_.jpg"
+                    alt="Smartwatch for Android iOS" class="product-image h-[23.7vh] w-[11vw] pb-[10px]">
+                <div class="inner-product flex justify-center items-center flex-row pb-[6px]">
+                    <h3 class="product-name text-[13px] mr-[10px] font-bold">Smartwatch for Android iOS</h3>
+                    <div class="discount-shape">
+                        <p class="product-discount text-[13px] ml-[10px] flex justify-center items-center font-bold">
+                            <span
+                                class="inline-block bg-green-700 rounded-[50%] h-[4.3vh] w-[2vw] content-center text-white text-[11px] mr-[3px]">9%</span>
+                            off
+                        </p>
+                    </div>
+                </div>
+                <p class="product-price pb-[8px] text-[14px] font-semibold">M.R.P.: <span
+                        class="text-[18px] font-bold">₹1,692</span> <strike>₹1,862</strike> </p>
+                <p class="product-description text-[#999999ef] text-[11px] pb-[10px]">The fitness watch for women comes
+                    with theme dials and
+                    you can
+                    personalize the watch face to your liking and customize the display content.</p>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+    </div>
+    <!-- Get in touch -->
+    <div class="p-10 pb-5">
+        <div class=" h-[30rem] flex justify-between bg-[#1d0617] rounded-3xl">
+            <div class="w-[50%] h-auto flex items-center justify-center">
+                <img id="contactlogo" class="h-[100%] " src="./final_logo.png" alt="LOGO">
+            </div>
+            <div class="w-[50%]">
+                <form action="https://formsubmit.co/sankarkarmakar9999@gmail.com" method="POST"
+                    class="message h-auto w-full bg-[#1d0617] border border-[#161616] rounded-[5%] p-5">
+                    <p class="getin w-full inline-block font-extrabold text-4xl text-[#f5f3ee] mb-4 items-center">Get in
+                        touch</p>
+                    <input type="text" name="Name" required
+                        class="ge w-full inline-block justify-center text-white bg-transparent placeholder:text-gray-400 border rounded-lg p-3 mb-3"
+                        placeholder="Name">
+                    <input type="email" name="Email" required
+                        class="ge w-full block justify-center text-white bg-transparent placeholder:text-gray-400 border rounded-lg p-3 mb-3"
+                        placeholder="Email">
+                    <input type="text" name="Subject" required
+                        class="ge w-full block justify-center text-white bg-transparent placeholder:text-gray-400 border rounded-lg p-3 mb-3"
+                        placeholder="Subject">
+                    <textarea cols="25" rows="4" name="Message" required
+                        class="ge w-full block justify-center text-white bg-transparent placeholder:text-gray-400 border rounded-lg p-3 mb-3"
+                        placeholder="Message"></textarea>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <button type="submit" class="read-more w-full flex justify-center items-center"
+                        id="submitbtn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-[#e2e7e6]">
+        <div class="foot-pannel2 h-auto p-3 pb-12 bg-[#14181d] text-white flex justify-evenly">
+            <ul class="footerwrt block mt-[50px] ">
+                <p class="font-extrabold">Get to Know</p>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Carrers</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Blog</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">About D & S Shopee</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Investor Relations</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">D & S Shopee Devices</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">D & S Shopee Sciences</a>
+            </ul>
+            <ul class="footerwrt block mt-[50px]">
+                <p class="font-extrabold">Make money With us</p>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Sell Product on D & S Shopee</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Sell on Amazon Business</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Sell Apps on D & S Shopee</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Become an Affiliate</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Advertise Your Products</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Self Publish with us</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Host an D & S Shopee hub</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">See more make money with us</a>
+            </ul>
+            <ul class="footerwrt block mt-[50px]">
+                <p class="font-extrabold">D & S Shopee Payment Products</p>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">D & S Shopee Business Card</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Shop with points</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Reload Your Balance</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Amazon Currency Convertor</a>
+            </ul>
+            <ul class="footerwrt block mt-[50px]">
+                <p class="font-extrabold">Let us help You</p>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Amazon and Covid-19</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Your Account</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Your Orders</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Shopping Rates & Proceeds</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Return & Replacements</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Manage Your Content and Devices</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">D & S Shopee Assistent</a>
+                <a class="block text-[0.85rem] mt-[10px] text-[#dddddd]">Help</a>
+            </ul>
+        </div>
+        <div class="foot-pannel4 bg-[#0f1111] text-white h-auto text-[0.7rem] align-baseline p-5">
+            <div class="pages flex justify-evenly">
+                <p>Conditions of use</p>
+                <p>Privacy notice</p>
+                <p>Your adds privacy choices</p>
+            </div>
+            <div class="copy-right flex justify-center items-center">
+                <p class="pt-2">&copy; 1996-2024, D & S shopee.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
